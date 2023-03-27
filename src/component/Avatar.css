@@ -1,0 +1,24 @@
+/* Source : https://randomuser.me/ */
+
+#user_photo {
+    position: relative;
+    background-color: white;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,.25);
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#user_photo:hover {
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
